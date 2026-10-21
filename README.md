@@ -119,7 +119,7 @@ The time source will determine which processing option to use. To change the pro
 
 At present the following modes are supported:
  * `To Timestamp` will directly call the LabVIEW `To Time Stamp` primitive on the mapped data and use that timestamp directly. Because this is a floating point value, resolution may be lost when using this mode. This is intended to be used with the system channel `Absolute Time`.
- * `Relative Seconds` will treat the time channel as an offset from T0. At present T0 is determined internal to the custom device based on when the engine tells the custom device to begin execution. Then the custom device will calculate `data timestamp = T0 + time channel (relative)`. For most test runs, this mode will provide better resolution but the uncontrolled T0 may result in a fixed offset between the recorded and absolute time. This is intended to be used with the system channel `System Time - Microseconds` or equivalent.
+ * `Relative Seconds` will treat the time channel as an offset from T0. At present T0 is determined internal to the custom device based on when the engine tells the custom device to begin execution. Then the custom device will calculate `data timestamp = T0 + time channel (relative)`. For most test runs, this mode will provide better resolution but the uncontrolled T0 may result in a fixed offset between the recorded and absolute time. This is intended to be used with the system channel `System Time` or equivalent.
 
 ## Building from source
 
