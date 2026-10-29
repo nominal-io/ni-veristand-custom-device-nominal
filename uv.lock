@@ -1,5 +1,5 @@
 version = 1
-revision = 3
+revision = 5
 requires-python = ">=3.12"
 resolution-markers = [
     "python_full_version >= '3.13'",
@@ -405,7 +405,7 @@ docs = [
 [[package]]
 name = "nominal-sphinx-theme"
 version = "0.1.0"
-source = { git = "https://github.com/nominal-io/nominal-sphinx-theme#eff08ba0d7e2aa35f7c250beae9aa813fb2e6cfd" }
+source = { git = "https://github.com/nominal-io/nominal-sphinx-theme#25724437849d36275eed81110072d6ec9ce0c79e" }
 dependencies = [
     { name = "myst-parser" },
     { name = "shibuya" },
