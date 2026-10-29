@@ -5,6 +5,7 @@
 Stream real-time test data from NI VeriStand® to Nominal. Nominal's custom device plugs into your VeriStand® system definition and publishes the channels you select while your real-time test runs.
 
 Releases and source code are on [GitHub](https://github.com/nominal-io/ni-veristand-custom-device-nominal).
+Nominal also integrates with [LabVIEW](site:/ni/labview/), [TestStand](site:/ni/teststand/) and [FlexLogger](site:/ni/flexlogger/).
 
 :::{note}
 **New to VeriStand®?** NI VeriStand® is a configuration-based environment for real-time testing and hardware-in-the-loop (HIL) simulation. Custom devices extend VeriStand® with additional functionality. See [what is VeriStand](https://www.ni.com/en/shop/electronic-test-instrumentation/application-software-for-electronic-test-and-instrumentation-category/what-is-veristand.html).
