@@ -405,7 +405,7 @@ docs = [
 [[package]]
 name = "nominal-sphinx-theme"
 version = "0.1.0"
-source = { git = "https://github.com/nominal-io/nominal-sphinx-theme#1adababc7a6522122dddf1a1b9424b832a499d99" }
+source = { git = "https://github.com/nominal-io/nominal-sphinx-theme#d91466343e356a69bd1bf41bb166c964860c0fd0" }
 dependencies = [
     { name = "myst-parser" },
     { name = "shibuya" },
