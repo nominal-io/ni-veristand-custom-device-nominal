@@ -5,10 +5,10 @@
 Stream real-time test data from NI VeriStand® to Nominal. Nominal's custom device plugs into your VeriStand® system definition and publishes the channels you select while your real-time test runs.
 
 Releases and source code are on [GitHub](https://github.com/nominal-io/ni-veristand-custom-device-nominal).
-Nominal also integrates with [LabVIEW](site:/ni/labview/), [TestStand](site:/ni/teststand/) and [FlexLogger](site:/ni/flexlogger/).
+Nominal also integrates with [LabVIEW](site:/ni-labview/), [TestStand](site:/ni-teststand/) and [FlexLogger](site:/ni-flexlogger/).
 
 :::{note}
-**New to VeriStand®?** NI VeriStand® is a configuration-based environment for real-time testing and hardware-in-the-loop (HIL) simulation. Custom devices extend VeriStand® with additional functionality. See [what is VeriStand](https://www.ni.com/en/shop/electronic-test-instrumentation/application-software-for-electronic-test-and-instrumentation-category/what-is-veristand.html).
+**New to VeriStand®?** NI VeriStand® is a configuration-based environment for real-time testing and hardware-in-the-loop (HIL) simulation. Custom devices extend VeriStand® with additional functionality. See [what is VeriStand](https://www.ni.com/en/shop/data-acquisition-and-control/application-software-for-data-acquisition-and-control-category/what-is-veristand.html).
 :::
 
 :::{warning}
@@ -20,11 +20,11 @@ The current release supports NI VeriStand® 2026 only.
 - NI VeriStand® 2026
 - For NI® Linux® Real-Time targets, a way to deploy shared libraries to the target, such as shell access or NI SystemLink®
 
-The custom device calls Nominal's libraries directly, so the [Nominal client for LabVIEW](site:/ni/labview/) is not required.
+The custom device calls Nominal's libraries directly, so the [Nominal client for LabVIEW](site:/ni-labview/) is not required.
 
 ## Connect to Nominal
 
-The custom device authenticates with a Nominal API key; see [API keys setup](site:/quickstart/quickstart/api-keys-setup/). It writes to either an asset RID paired with a dataset name, or a single [dataset RID](site:/quickstart/quickstart/quick/quick-dataset-rid/). See [Creating asset metadata](site:/quickstart/quickstart/quick/quick-asset/). Keep the API key secret; asset and dataset RIDs are identifiers rather than credentials.
+The custom device authenticates with a Nominal API key; see [API keys setup](site:/quickstart/api-keys-setup/). It writes to either an asset RID paired with a dataset name, or a single [dataset RID](site:/quickstart/quick/quick-dataset-rid/). See [Creating asset metadata](site:/quickstart/quick/quick-asset/). Keep the API key secret; asset and dataset RIDs are identifiers rather than credentials.
 
 ## Install the custom device
 

@@ -42,7 +42,7 @@ any other use of the name rather than copying it.
   relies on it. The manual's pages on ni.com load with JavaScript, so ask your human for the PDF.
 - For anything in the Nominal app, such as API keys, assets and datasets, link the hub's
   quickstart pages rather than describing the app from memory.
-- Link to other projects on the hub as `[text](site:/{lang}/{project}/{page}/)`, never with an
+- Link to other projects on the hub as `[text](site:/{project}/{page}/)`, never with an
   absolute URL, so the hub's offline copy works. These links resolve on the hub but not on this
   repo's own Pages.
 - Keep the Trademarks section at the end of `index.md`.
